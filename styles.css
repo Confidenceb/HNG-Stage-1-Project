@@ -1,0 +1,171 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-bottom: 9.6rem;
+}
+/* ***************************** */
+/* Nav */
+/* ***************************** */
+/*
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 9.6rem;
+
+  padding: 2.4rem;
+}
+
+.logo {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: #222;
+
+  background: #fff;
+  padding: 0.4rem 1.6rem;
+  border-radius: 10px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover,
+.logo:active,
+.nav-link:hover,
+.nav-link:active {
+  color: #bbb;
+}
+
+.logo:active,
+.logo:hover {
+  background: #000;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.4rem;
+
+  list-style: none;
+
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+*/
+/* ***************************** */
+/* Hero page */
+/* ***************************** */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 4rem;
+
+  margin: 10.8rem auto;
+  padding: 3.6rem;
+
+  max-width: 130rem;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding: 2.4rem;
+
+  color: #fff;
+}
+
+.main-header {
+  font-size: 6.4rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+[data-testid="slackDisplayName"] {
+  font-size: 4.8rem;
+}
+
+[data-testid="currentDay"],
+[data-testid="slackEmail"],
+[data-testid="currentTimeUTC"] {
+  font-size: 1.6rem;
+}
+
+[data-testid="slackEmail"] {
+  text-decoration: underline;
+}
+
+[data-testid="slackProfilePicture"] {
+  border-radius: 10px;
+}
+
+/* ***************************** */
+
+.goals {
+  margin-top: 2em;
+}
+
+.secondary-header {
+  margin-bottom: 4.8rem;
+  color: #fff;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.goal-box {
+  background: #2e2e2e;
+  padding: 3.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 4.8rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.goal-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.goal-box p {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #cccccc;
+}
+
+.links a {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+[data-testid="hngLink"],
+[data-testid="keywordLink"],
+[data-testid="scrapeanywebLink"] {
+  color: #fff;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
